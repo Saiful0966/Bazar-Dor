@@ -5,7 +5,8 @@ import { Product } from "@/types/product";
 
 export default function Card({ product }: { product: Product }) {
   return (
-    <Link href={`/products/${product.slug}`}>
+    
+    <Link href={`/product/${product.id}`}>
       <div className="bg-white rounded-2xl p-4 md:p-5 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
         {/*  image and name & unit */}
         <div className="flex items-center gap-3">
