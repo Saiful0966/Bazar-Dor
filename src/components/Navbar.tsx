@@ -12,7 +12,7 @@ const Navbar = () => {
   });
 
   return (
-    <header className="w-full bg-[#f9fafb] border-b border-gray-200">
+    <header className=" sticky top-0 z-50 bg-white w-full bg-[#f9fafb] border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-2.5 sm:px-4 py-2.5 sm:py-4 flex items-center justify-between gap-1 sm:gap-4">
         {/* Logo &  Date */}
         <div className="flex items-center gap-1.5 sm:gap-3 min-w-0 shrink">
