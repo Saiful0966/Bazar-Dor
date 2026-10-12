@@ -34,7 +34,7 @@ const Hero = () => {
           {/* Button */}
           <div>
             <Link
-              href="./AllProducts.tsx"
+              href="./"
               className="inline-block bg-[#00a859] hover:bg-[#008f4c] text-white font-medium text-sm md:text-base px-5 py-2.5 rounded-lg transition-colors duration-200"
             >
               সব পণ্য দেখুন
